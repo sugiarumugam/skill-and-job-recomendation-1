@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		body{
+			background: linear-gradient(to right, #3f5efb, #fc466b);
+		}
+		.contact-form{
+			max-width: 350px;
+			margin: auto;
+			border-radius: 30px;
+			background: rgba(255, 255, 255, 0.06);
+			box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+			border-left: 1px solid rgba(255, 255, 255, 0.3);
+			border-top: 1px solid rgba(255, 255, 255, 0.3);;
+			padding: 20px;
+		}
+		input[type=text], select{
+			width: 100;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		input[type=Submit]{
+			width: 100%;
+			background: purple;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		h2{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="contact-form">
+		<h2>Register Here</h2>
+	<form>
+		<table>
+			<tr>
+				<td>
+					Name :
+				</td>
+				<td>
+					<input type="text" placeholder="Your Name">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Email :
+				</td>
+				<td>
+					<!-input type="mail" placeholder="Emai Address">
+					<label for="Email"></label>
+					<input type="text" name="Email" placeholder="Email Address">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Mobile :
+				</td>
+				<td>
+					<input type="text" name="country code" value="+91" size="1"/>
+					<input type="text" name="Mobile" size="10"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					City :
+				</td>
+				<td>
+				<select name="City">
+					<option value=""></option>
+					<option value="Ariyalur">Ariyalur</option>
+					<option value="Chengalpattu">Chengalpattu</option>
+					<option value="Chennai">Chennai</option>
+					<option value="Coimbatore">Coimbatore</option>
+					<option value="Cuddalure">Cuddalure</option>
+					<option value="Dharmapuri">Dharmapuri</option>
+					<option value="Dindigul">Dindigul</option>
+					<option value="Erode">Erode</option>
+					<option value="Kallakurichi">Kallakurichi</option>
+					<option value="Kanchipuram">Kanchipuram</option>
+					<option value="Kanyakumari">Kanyakumari</option>
+					<option value="Karur">Karur</option>
+					<option value="Krishnagiri">Krishnagiri</option>
+					<option value="Madurai">Madurai</option>
+					<option value="Nagapattinam">Nagapattinam</option>
+					<option value="Namakkal">Namakkal</option>
+					<option value="Nilgiris">Nilgiris</option>
+					<option value="perambalur">perambalur</option>
+					<option value="pudukkottai">pudukkottai</option>
+					<option value="Ramanathapuram">Ramanathapuram</option>
+					<option value="Ranipet">Ranipet</option>
+					<option value="Salem">Salem</option>
+					<option value="Sivaganga">Sivaganga</option>
+					<option value="Tenkasi">Tenkasi</option>
+					<option value="Thanjavur">Thanjavur</option>
+					<option value="Theni">Theni</option>
+					<option value="Thoothukudi">Thoothukudi</option>
+					<option value="Tiruchirappalli">Tiruchirappalli</option>
+					<option value="Tirunelveli">Tirunelveli</option>
+					<option value="Tirupathur">Tirupathur</option>
+					<option value="Tiruppur">Tiruppur</option>
+					<option value="Tiruvallur">Tiruvallur</option>
+					<option value="Tiruvannamalai">Tiruvannamalai</option>
+					<option value="Tiruvarur">Tiruvarur</option>
+					<option value="Vellore">Vellore</option>
+					<option value="Viluppuram">Viluppuram</option>
+					<option value="Virudhunagar">Virudhunagar</option>
+				</select>
+			</td>
+			</tr>
+			<tr>
+				<td>
+					State :
+				</td>
+				<td>
+					<select name="State">
+						<option value=""></option>
+						<option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Arunacha Pradesh">Arunacha Pradesh</option>
+						<option value="Assam">Assam</option>
+						<option value="Bihar">Bihar</option>
+						<option value="Chhattisgarh">Chhattisgarh</option>
+						<option value="Goa">Goa</option>
+						<option value="Gujarat">Gujarat</option>
+						<option value="Haryana">Haryana</option>
+						<option value="Himachal Pradesh">Himachal Pradesh</option>
+						<option value="Jharkhand">Jharkhand</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Kerala">Kerala</option>
+						<option value="Madhya Pradesh">Madhya Pradesh</option>
+						<option value="Maharashtra">Maharashtra</option>
+						<option value="Manipur">Manipur</option>
+						<option value="Meghalaya">Meghalaya</option>
+						<option value="Mizoram">Mizoram</option>
+						<option value="Nagaland">Nagaland</option>
+						<option value="Odisha">Odisha</option>
+						<option value="Punjab">Punjab</option>
+						<option value="Rajasthan">Rajasthan</option>
+						<option value="Sikkim">Sikkim</option>
+						<option value="Tamil Nadu">Tamil Nadu</option>
+						<option value="Telangana">Telangana</option>
+						<option value="Tripura">Tripura</option>
+						<option value="Uttar Pradesh">Uttar Pradesh</option>
+						<option value="Uttarakhand">Uttarakhand</option>
+						<option value="West Bengal">West Bengal</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Country :
+				</td>
+				<td>
+					<select name="Country">
+						<option value=""></option>
+						<option value="India">India</option>
+					</select>
+				</td>
+			</tr>
+			<td>
+				<input type="Submit" value="Submit">
+			</td>
+		</table>
+	</form>
+</div>
+</body>
+</html>
